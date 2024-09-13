@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 2</title>
+    <title>Homework 5</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -59,132 +59,190 @@
 
     <main class="main">
       <section class="portfolio">
-        <ul class="portfolio__filters filters">
-          <li class="filters__item filter">
-            <button class="filter__button">Усі</button>
-          </li>
-          <li class="filters__item filter">
-            <button class="filter__button">Веб-сайти</button>
-          </li>
-          <li class="filters__item filter">
-            <button class="filter__button">Додатки</button>
-          </li>
-          <li class="filters__item filter">
-            <button class="filter__button">Дизайн</button>
-          </li>
-          <li class="filters__item filter">
-            <button class="filter__button">Маркетинг</button>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="portfolio__filters filters">
+            <li class="filters__item filter filter--active">
+              <button class="filter__button">Усі</button>
+            </li>
+            <li class="filters__item filter">
+              <button class="filter__button">Веб-сайти</button>
+            </li>
+            <li class="filters__item filter">
+              <button class="filter__button">Додатки</button>
+            </li>
+            <li class="filters__item filter">
+              <button class="filter__button">Дизайн</button>
+            </li>
+            <li class="filters__item filter">
+              <button class="filter__button">Маркетинг</button>
+            </li>
+          </ul>
 
-        <ul class="portfolio__projects projects">
-          <li class="projects__item project">
-            <div class="project__image-container">
-              <img
-                src="./images/portfolio/img.png"
-                alt=""
-                class="project__image"
-              />
-              <p class="project__description">
-                Ресурс пропонує комплексні пропозиції з різним рівнем
-                функціоналу та сервісів. Все це дозволить відвідувачу отримати
-                вичерпні відомості про компанію чи приватну особу.
-              </p>
-            </div>
-            <div class="project__content">
-              <h3 class="project__title">Технокряк</h3>
-              <p class="project__type">Веб-сайт</p>
-            </div>
-          </li>
-          <li class="projects__item project">
-            <img
-              src="./images/portfolio/img (1).png"
-              alt=""
-              class="project__image"
-            />
-            <div class="project__content">
-              <h3 class="project__title">Постер New Orlean vs Golden Star</h3>
-              <p class="project__type">Дизайн</p>
-            </div>
-          </li>
-          <li class="projects__item project">
-            <img
-              src="./images/portfolio/img (2).png"
-              alt=""
-              class="project__image"
-            />
-            <div class="project__content">
-              <h3 class="project__title">Ресторан Seafood</h3>
-              <p class="project__type">Додаток</p>
-            </div>
-          </li>
-          <li class="projects__item project">
-            <img
-              src="./images/portfolio/img (3).png"
-              alt=""
-              class="project__image"
-            />
-            <div class="project__content">
-              <h3 class="project__title">Проєкт Prime</h3>
-              <p class="project__type">Маркетинг</p>
-            </div>
-          </li>
-          <li class="projects__item project">
-            <img
-              src="./images/portfolio/img (4).png"
-              alt=""
-              class="project__image"
-            />
-            <div class="project__content">
-              <h3 class="project__title">Проєкт Boxes</h3>
-              <p class="project__type">Додаток</p>
-            </div>
-          </li>
-          <li class="projects__item project">
-            <img
-              src="./images/portfolio/img (5).png"
-              alt=""
-              class="project__image"
-            />
-            <div class="project__content">
-              <h3 class="project__title">Inspiration has no Borders</h3>
-              <p class="project__type">Веб-сайт</p>
-            </div>
-          </li>
-          <li class="projects__item project">
-            <img
-              src="./images/portfolio/img (6).png"
-              alt=""
-              class="project__image"
-            />
-            <div class="project__content">
-              <h3 class="project__title">Видання Limited Edition</h3>
-              <p class="project__type">Дизайн</p>
-            </div>
-          </li>
-          <li class="projects__item project">
-            <img
-              src="./images/portfolio/img (7).png"
-              alt=""
-              class="project__image"
-            />
-            <div class="project__content">
-              <h3 class="project__title">Проєкт LAB</h3>
-              <p class="project__type">Маркетинг</p>
-            </div>
-          </li>
-          <li class="projects__item project">
-            <img
-              src="./images/portfolio/img (8).png"
-              alt=""
-              class="project__image"
-            />
-            <div class="project__content">
-              <h3 class="project__title">Growing Business</h3>
-              <p class="project__type">Додаток</p>
-            </div>
-          </li>
-        </ul>
+          <ul class="portfolio__projects projects">
+            <li class="projects__item project">
+              <div class="project__image-container">
+                <img
+                  src="./images/portfolio/project--1.jpg"
+                  alt=""
+                  class="project__image"
+                />
+                <p class="project__description">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">Технокряк</h3>
+                <p class="project__type">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="projects__item project">
+              <div class="project__image-container">
+                <img
+                  src="./images/portfolio/project--2.jpg"
+                  alt=""
+                  class="project__image"
+                />
+                <p class="project__description">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">Постер New Orlean vs Golden Star</h3>
+                <p class="project__type">Дизайн</p>
+              </div>
+            </li>
+            <li class="projects__item project">
+              <div class="project__image-container">
+                <img
+                  src="./images/portfolio/project--3.jpg"
+                  alt=""
+                  class="project__image"
+                />
+                <p class="project__description">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">Ресторан Seafood</h3>
+                <p class="project__type">Додаток</p>
+              </div>
+            </li>
+            <li class="projects__item project">
+              <div class="project__image-container">
+                <img
+                  src="./images/portfolio/project--4.jpg"
+                  alt=""
+                  class="project__image"
+                />
+                <p class="project__description">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">Проєкт Prime</h3>
+                <p class="project__type">Маркетинг</p>
+              </div>
+            </li>
+            <li class="projects__item project">
+              <div class="project__image-container">
+                <img
+                  src="./images/portfolio/project--5.jpg"
+                  alt=""
+                  class="project__image"
+                />
+                <p class="project__description">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">Проєкт Boxes</h3>
+                <p class="project__type">Додаток</p>
+              </div>
+            </li>
+            <li class="projects__item project">
+              <div class="project__image-container">
+                <img
+                  src="./images/portfolio/project--6.jpg"
+                  alt=""
+                  class="project__image"
+                />
+                <p class="project__description">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">Inspiration has no Borders</h3>
+                <p class="project__type">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="projects__item project">
+              <div class="project__image-container">
+                <img
+                  src="./images/portfolio/project--7.jpg"
+                  alt=""
+                  class="project__image"
+                />
+                <p class="project__description">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">Видання Limited Edition</h3>
+                <p class="project__type">Дизайн</p>
+              </div>
+            </li>
+            <li class="projects__item project">
+              <div class="project__image-container">
+                <img
+                  src="./images/portfolio/project--8.jpg"
+                  alt=""
+                  class="project__image"
+                />
+                <p class="project__description">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">Проєкт LAB</h3>
+                <p class="project__type">Маркетинг</p>
+              </div>
+            </li>
+            <li class="projects__item project">
+              <div class="project__image-container">
+                <img
+                  src="./images/portfolio/project--9.jpg"
+                  alt=""
+                  class="project__image"
+                />
+                <p class="project__description">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">Growing Business</h3>
+                <p class="project__type">Додаток</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
